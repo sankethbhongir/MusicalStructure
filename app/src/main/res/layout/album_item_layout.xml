@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/list_layout_padding">-->
+
+    <android.support.design.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+     android:id="@+id/album_card"
+        android:layout_width="match_parent"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardElevation="@dimen/album_card_elevation">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/albumCoverImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/album_two_cover"
+
+                />
+
+            <TextView
+                android:id="@+id/albumNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:paddingBottom="2dp"
+                android:paddingEnd="4dp"
+                android:paddingStart="12dp"
+                android:paddingTop="4dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                tools:text="album name" />
+
+            <TextView
+                android:id="@+id/albumArtistTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:paddingEnd="4dp"
+                android:paddingStart="12dp"
+                android:textSize="12sp"
+                tools:text="artist name" />
+
+
+        </LinearLayout>
+
+    </android.support.design.card.MaterialCardView>
+
+
+<!--</RelativeLayout>-->

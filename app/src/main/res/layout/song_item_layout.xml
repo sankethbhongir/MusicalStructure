@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/song_albumArt"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        tools:src="@drawable/album_eight_cover" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/songNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:padding="4dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            tools:text="@string/album_1_song_1_name" />
+
+        <TextView
+            android:id="@+id/songArtistTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:padding="4dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/darker_gray"
+            tools:text="@string/app_name" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/songTimeLineTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.3"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:text="timeline" />
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+

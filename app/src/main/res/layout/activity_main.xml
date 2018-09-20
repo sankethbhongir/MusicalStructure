@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activities.MainActivity">
+
+    <Button
+        android:id="@+id/albumsView"
+        style="@style/categoryButtonStyle"
+        android:text="@string/albums" />
+
+    <Button
+        android:id="@+id/songView"
+        style="@style/categoryButtonStyle"
+        android:text="@string/songs" />
+
+    <Button
+        android:id="@+id/artistView"
+        style="@style/categoryButtonStyle"
+        android:text="@string/artists" />
+
+    <Button
+        android:id="@+id/genreView"
+        style="@style/categoryButtonStyle"
+        android:text="@string/genres" />
+
+</LinearLayout>

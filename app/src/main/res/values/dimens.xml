@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mainLayout_margin">10dp</dimen>
+    <dimen name="category_padding">20dp</dimen>
+    <dimen name="button_size">30sp</dimen>
+    <dimen name="list_layout_padding">10dp</dimen>
+    <dimen name="category_card_width">304dp</dimen>
+    <dimen name="category_card_spacing">5dp</dimen>
+    <dimen name="category_card_radii">4dp</dimen>
+    <dimen name="category_card_elevation">8dp</dimen>
+    <dimen name="album_card_width">185dp</dimen>
+    <dimen name="album_card_elevation">4dp</dimen>
+</resources>

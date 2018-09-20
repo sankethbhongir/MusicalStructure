@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:padding="@dimen/list_layout_padding">
+
+    <ImageView
+        android:id="@+id/artistImage"
+        android:layout_width="80dp"
+
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        tools:src="@drawable/taylor_swift" />
+
+    <TextView
+        android:id="@+id/artistTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal|fill_vertical"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"
+        tools:text="assdddd" />
+
+
+</GridLayout>

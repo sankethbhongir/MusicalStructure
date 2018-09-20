@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary"> #ff6d00</color>
+    <color name="colorPrimaryDark">#c43c00</color>
+    <color name="colorAccent">#000</color>
+
+    <color name="backgroundColor">#eeeeee</color>
+
+    <color name="SongsColorPrimary">#0091ea</color>
+    <color name="SongsPrimaryDark">#0064b7</color>
+
+    <color name="AlbumColorPrimary">#d50000</color>
+    <color name="AlbumPrimaryColorDark">#9b0000</color>
+
+    <color name="ArtistColorPrimary">#aa00ff</color>
+    <color name="ArtistPrimaryColorDark">#7200ca</color>
+
+    <color name="GenreColorPrimary">#212121</color>
+    <color name="GenrePrimaryColorDark">#000000</color>
+</resources>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/list_layout_padding"
+    tools:context=".Activities.GenresActivity">
+
+    <android.support.design.card.MaterialCardView
+        style="@style/Widget.MaterialComponents.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:focusable="true"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/genreTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto"
+                android:gravity="center_vertical"
+                android:paddingEnd="@dimen/list_layout_padding"
+                android:paddingStart="@dimen/list_layout_padding"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                tools:background="@drawable/pop_genre_color"
+                tools:text="Rock" />
+
+        </RelativeLayout>
+
+    </android.support.design.card.MaterialCardView>
+
+</FrameLayout>
